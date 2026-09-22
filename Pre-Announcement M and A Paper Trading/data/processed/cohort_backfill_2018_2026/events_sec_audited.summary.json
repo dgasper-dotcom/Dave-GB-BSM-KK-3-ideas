@@ -1,0 +1,11 @@
+{
+  "rows": 309,
+  "status_counts": {
+    "sec_candidate": 266,
+    "no_candidate_filings_in_window": 20,
+    "no_candidate_filings": 19,
+    "no_qualified_transaction_filing": 3,
+    "manual_aemd_sec_8k": 1
+  },
+  "audited_rows": 267
+}

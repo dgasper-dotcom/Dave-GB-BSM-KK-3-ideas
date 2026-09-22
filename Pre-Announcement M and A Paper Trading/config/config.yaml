@@ -1,0 +1,48 @@
+project:
+  name: transformative_tx_ml
+  timezone: America/New_York
+  prediction_time: market_close
+
+sec:
+  user_agent: "transformative-tx-research/0.1 contact@example.com"
+  base_url: "https://www.sec.gov"
+  data_base_url: "https://data.sec.gov"
+  min_request_interval_seconds: 0.12
+  forms:
+    - "8-K"
+    - "10-K"
+    - "10-Q"
+    - "DEF 14A"
+    - "DEFA14A"
+    - "PRE 14A"
+    - "S-1"
+    - "S-3"
+    - "S-4"
+    - "424B"
+    - "SC 13D"
+    - "SC 13G"
+    - "4"
+
+labels:
+  horizons_trading_days: [5, 10, 20, 40, 60, 90]
+  event_types:
+    - TRANSFORMATIVE_TRANSACTION
+    - MERGER
+    - ACQUISITION
+    - REVERSE_MERGER
+    - CHANGE_OF_CONTROL
+    - STRATEGIC_TRANSACTION
+    - OTHER_TRANSFORMATIVE_EVENT
+
+universe:
+  exchanges: ["NASDAQ", "NYSE", "NYSE American"]
+  max_market_cap: 500000000
+  market_cap_buckets: [25000000, 50000000, 100000000, 250000000, 500000000]
+  exclude_security_types: ["ETF", "ETN", "CEF", "MUTUAL_FUND", "PREFERRED", "WARRANT", "RIGHT"]
+
+backtest:
+  max_pct_adv: 0.05
+  min_dollar_volume: 100000
+  default_spread_bps: 150
+  default_slippage_bps: 75
+  commissions_bps: 0

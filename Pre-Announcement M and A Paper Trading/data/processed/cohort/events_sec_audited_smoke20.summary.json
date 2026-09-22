@@ -1,0 +1,9 @@
+{
+  "rows": 20,
+  "status_counts": {
+    "sec_candidate": 18,
+    "manual_aemd_sec_8k": 1,
+    "no_candidate_filings": 1
+  },
+  "audited_rows": 19
+}

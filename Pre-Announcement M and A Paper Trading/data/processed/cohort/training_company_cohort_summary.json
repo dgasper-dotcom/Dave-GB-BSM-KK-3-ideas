@@ -1,0 +1,11 @@
+{
+  "positive_companies": 251,
+  "control_companies": 753,
+  "total_companies": 1004,
+  "positive_date_min": "2024-09-17",
+  "positive_date_max": "2026-09-17",
+  "unresolved_positive_seed_rows": 154,
+  "stockanalysis_rows_pulled": 404,
+  "sec_ticker_rows": 10422,
+  "warning": "StockAnalysis acquisition dates are action/closing-style seeds, not audited first announcement timestamps."
+}

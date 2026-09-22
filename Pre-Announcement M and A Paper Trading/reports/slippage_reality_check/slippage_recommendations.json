@@ -1,0 +1,8 @@
+{
+  "method": "insufficient_data",
+  "conservative_quantile": 0.75,
+  "entry_slippage_bps": null,
+  "exit_slippage_bps": null,
+  "fixed_cost_bps": 0.0,
+  "notes": []
+}

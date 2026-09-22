@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+topstep_prop_challenge_paper/
+topstep_multi_paper_monitor/
+topstep_nq_paper_monitor/
+*.log

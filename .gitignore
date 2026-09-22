@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+all_keys.txt
+*.log
+*.pid
+*.db
+*.db-*
+
+# Runtime/generated trading ledgers.
+known_outcome_candidates.csv
+known_outcome_opportunities.csv
+known_outcome_trades.csv
+known_outcome_pnl.csv
+topstep_prop_challenge_paper/
+topstep_150k_es_paper/
+
+# Large reproducible research artifacts.
+data/raw/
+exports/
+calibration_scores.csv
